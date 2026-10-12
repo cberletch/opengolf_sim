@@ -1,0 +1,52 @@
+{
+  "course_name": "Augusta National (First 3 Holes)",
+  "holes": [
+    {
+      "number": 1,
+      "name": "Tea Olive",
+      "par": 4,
+      "yards": 445,
+      "dogleg": "right",
+      "elevation_change": "downhill",
+      "bunkers": [
+        {"type": "fairway", "position": "left", "yards_from_tee": 280},
+        {"type": "green", "position": "front-left"},
+        {"type": "green", "position": "back-right"}
+      ],
+      "water": [],
+      "trees": "heavy",
+      "amen_corner": false
+    },
+    {
+      "number": 2,
+      "name": "Pink Dogwood",
+      "par": 5,
+      "yards": 575,
+      "dogleg": "left",
+      "elevation_change": "downhill",
+      "bunkers": [
+        {"type": "green", "position": "front-left"},
+        {"type": "green", "position": "back-right"}
+      ],
+      "water": [],
+      "trees": "heavy",
+      "amen_corner": false
+    },
+    {
+      "number": 3,
+      "name": "Flowering Peach",
+      "par": 4,
+      "yards": 350,
+      "dogleg": "none",
+      "elevation_change": "flat",
+      "bunkers": [
+        {"type": "fairway", "position": "right"},
+        {"type": "green", "position": "left"},
+        {"type": "green", "position": "right"}
+      ],
+      "water": [],
+      "trees": "heavy",
+      "amen_corner": false
+    }
+  ]
+}

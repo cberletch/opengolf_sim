@@ -1,0 +1,152 @@
+{
+  "course_name": "Augusta National (Mimic)",
+  "holes": [
+    {
+      "number": 1, "name": "Tea Olive", "par": 4, "yards": 445,
+      "dogleg": "right", "elevation_change": "downhill",
+      "bunkers": [{"type": "fairway", "position": "left", "yards_from_tee": 280}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "moderate", "size": "large"}
+    },
+    {
+      "number": 2, "name": "Pink Dogwood", "par": 5, "yards": 575,
+      "dogleg": "left", "elevation_change": "downhill",
+      "bunkers": [{"type": "green", "position": "front-left"}, {"type": "green", "position": "back-right"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "moderate", "size": "large"}
+    },
+    {
+      "number": 3, "name": "Flowering Peach", "par": 4, "yards": 350,
+      "dogleg": "none", "elevation_change": "flat",
+      "bunkers": [{"type": "fairway", "position": "right"}, {"type": "green", "position": "left"}, {"type": "green", "position": "right"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "medium"}
+    },
+    {
+      "number": 4, "name": "Flowering Crab Apple", "par": 3, "yards": 240,
+      "dogleg": "none", "elevation_change": "downhill",
+      "bunkers": [{"type": "green", "position": "surround"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "small"}
+    },
+    {
+      "number": 5, "name": "Magnolia", "par": 4, "yards": 495,
+      "dogleg": "left", "elevation_change": "uphill",
+      "bunkers": [{"type": "fairway", "position": "right"}, {"type": "green", "position": "left"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "moderate", "size": "large"}
+    },
+    {
+      "number": 6, "name": "Juniper", "par": 3, "yards": 180,
+      "dogleg": "none", "elevation_change": "uphill",
+      "bunkers": [{"type": "green", "position": "surround"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "small"}
+    },
+    {
+      "number": 7, "name": "Pampas", "par": 4, "yards": 450,
+      "dogleg": "none", "elevation_change": "flat",
+      "bunkers": [{"type": "fairway", "position": "left"}, {"type": "green", "position": "left"}],
+      "water": [],
+      "trees": "very heavy",
+      "green": {"undulation": "moderate", "size": "medium"}
+    },
+    {
+      "number": 8, "name": "Yellow Jasmine", "par": 5, "yards": 570,
+      "dogleg": "left", "elevation_change": "uphill",
+      "bunkers": [{"type": "fairway", "position": "right"}, {"type": "green", "position": "back"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "large"}
+    },
+    {
+      "number": 9, "name": "Carolina Cherry", "par": 4, "yards": 460,
+      "dogleg": "left", "elevation_change": "downhill",
+      "bunkers": [{"type": "fairway", "position": "right"}, {"type": "green", "position": "front"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "moderate", "size": "medium"}
+    },
+    {
+      "number": 10, "name": "Camellia", "par": 4, "yards": 495,
+      "dogleg": "right", "elevation_change": "downhill",
+      "bunkers": [{"type": "fairway", "position": "left"}, {"type": "green", "position": "front-right"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "medium"}
+    },
+    {
+      "number": 11, "name": "White Dogwood", "par": 4, "yards": 505,
+      "dogleg": "right", "elevation_change": "downhill",
+      "bunkers": [{"type": "fairway", "position": "right"}],
+      "water": [{"type": "creek", "name": "Rae's Creek", "crosses": "before green"}],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "large"},
+      "amen_corner": true
+    },
+    {
+      "number": 12, "name": "Golden Bell", "par": 3, "yards": 155,
+      "dogleg": "none", "elevation_change": "downhill",
+      "bunkers": [{"type": "green", "position": "front-left"}, {"type": "green", "position": "front-right"}, {"type": "green", "position": "back"}],
+      "water": [{"type": "creek", "name": "Rae's Creek", "crosses": "front of green"}],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "small"},
+      "amen_corner": true
+    },
+    {
+      "number": 13, "name": "Azalea", "par": 5, "yards": 510,
+      "dogleg": "left", "elevation_change": "downhill",
+      "bunkers": [{"type": "fairway", "position": "right"}],
+      "water": [{"type": "creek", "name": "Rae's Creek", "crosses": "left of fairway"}],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "large"},
+      "amen_corner": true
+    },
+    {
+      "number": 14, "name": "Chinese Fir", "par": 4, "yards": 440,
+      "dogleg": "none", "elevation_change": "uphill",
+      "bunkers": [],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "extreme", "size": "medium"}
+    },
+    {
+      "number": 15, "name": "Firethorn", "par": 5, "yards": 530,
+      "dogleg": "right", "elevation_change": "flat",
+      "bunkers": [{"type": "green", "position": "front"}],
+      "water": [{"type": "pond", "name": "Pond", "crosses": "before green"}],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "medium"}
+    },
+    {
+      "number": 16, "name": "Redbud", "par": 3, "yards": 170,
+      "dogleg": "none", "elevation_change": "flat",
+      "bunkers": [{"type": "green", "position": "left"}, {"type": "green", "position": "back"}],
+      "water": [{"type": "pond", "name": "Pond", "crosses": "front of green"}],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "small"}
+    },
+    {
+      "number": 17, "name": "Nandina", "par": 4, "yards": 440,
+      "dogleg": "none", "elevation_change": "flat",
+      "bunkers": [{"type": "fairway", "position": "right"}, {"type": "green", "position": "front"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "moderate", "size": "medium"}
+    },
+    {
+      "number": 18, "name": "Holly", "par": 4, "yards": 465,
+      "dogleg": "left", "elevation_change": "uphill",
+      "bunkers": [{"type": "fairway", "position": "left"}, {"type": "green", "position": "front-left"}],
+      "water": [],
+      "trees": "heavy",
+      "green": {"undulation": "severe", "size": "large"}
+    }
+  ]
+}
