@@ -4,10 +4,9 @@ extends Control
 var hole_label: Label
 var score_label: Label
 var shots_label: Label
-
+var shots_taken: int = 0
 var current_hole: int = 1
 var current_score: int = 0
-var shots_taken: int = 0
 var hole_par: int = 4
 
 func _ready() -> void:
@@ -17,6 +16,7 @@ func _build_ui() -> void:
 	var panel = PanelContainer.new()
 	panel.position = Vector2(10, 200)
 	panel.size = Vector2(200, 120)
+	panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(panel)
 
 	var vbox = VBoxContainer.new()

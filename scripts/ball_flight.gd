@@ -16,6 +16,8 @@ const ROLLING_FRICTION: float = 0.18
 const BOUNCE_RESTITUTION: float = 0.45
 const STOP_SPEED: float = 0.5
 
+const VISUAL_BALL_RADIUS: float = 0.15
+
 var velocity: Vector3 = Vector3.ZERO
 var is_flying: bool = false
 var is_rolling: bool = false
@@ -33,10 +35,10 @@ func _ready() -> void:
 
 func _create_ball_mesh() -> void:
 	var sphere = SphereMesh.new()
-	sphere.radius = BALL_RADIUS
-	sphere.height = BALL_RADIUS * 2
-	sphere.radial_segments = 8
-	sphere.rings = 4
+	sphere.radius = VISUAL_BALL_RADIUS
+	sphere.height = VISUAL_BALL_RADIUS * 2
+	sphere.radial_segments = 12
+	sphere.rings = 8
 
 	var mat = StandardMaterial3D.new()
 	mat.albedo_color = Color(1, 1, 1, 1)

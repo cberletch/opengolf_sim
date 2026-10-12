@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b1augusta_main"]
+[gd_scene load_steps=8 format=3 uid="uid://b1augusta_main"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
 [ext_resource type="Script" path="res://scripts/skytrak_connector.gd" id="2_connector"]
@@ -7,6 +7,8 @@
 [ext_resource type="Script" path="res://scripts/shot_test_utility.gd" id="5_test"]
 [ext_resource type="Script" path="res://scripts/camera_controller.gd" id="6_camera"]
 [ext_resource type="Script" path="res://scripts/score_tracker.gd" id="7_score"]
+[ext_resource type="Script" path="res://scripts/ball_tracer.gd" id="8_tracer"]
+[ext_resource type="Script" path="res://scripts/aim_indicator.gd" id="9_aim"]
 
 [sub_resource type="Environment" id="Environment_sky"]
 background_mode = 1
@@ -37,6 +39,13 @@ script = ExtResource("4_course")
 [node name="Ball" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 0)
 script = ExtResource("3_ball")
+
+[node name="BallTracer" type="Node3D" parent="."]
+script = ExtResource("8_tracer")
+
+[node name="AimIndicator" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+script = ExtResource("9_aim")
 
 [node name="SkytrakConnector" type="Node" parent="."]
 script = ExtResource("2_connector")
@@ -88,5 +97,5 @@ anchor_bottom = 0.0
 offset_left = -320.0
 offset_top = 10.0
 offset_right = -10.0
-offset_bottom = 410.0
+offset_bottom = 510.0
 script = ExtResource("5_test")
